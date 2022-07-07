@@ -12,9 +12,9 @@ function App() {
     <div>
       <Parallax  pages={4} ref={ref} >
       <ParallaxLayer
-          offset={0}  //positio o page
-          speed={.5}  //speed scroll
-          factor={4}   //page size
+          offset={0}  
+          speed={.5}  
+          factor={4}   
           style={{
             backgroundImage: `url(${mario1})`,
             backgroundSize: 'cover',
